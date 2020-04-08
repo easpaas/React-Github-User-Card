@@ -1,0 +1,54 @@
+/* UserCard styles */
+.card {
+  border: 3px solid grey;
+  width: 45%;
+  margin: 2% auto;
+  padding: 2%;
+  background-color: black;
+  color: grey;
+}
+.image {
+  max-width: 45%;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+}
+
+/* MyFollowers styles */
+.followers-container {
+  width: 80%;
+  margin: 5% auto;
+  padding: 1%;
+  border: 3px solid grey;
+  background-color: black;
+  color: grey;
+}
+.followers-container h2 {
+  margin: 2% 0;
+  text-align: center;
+  font-variant: small-caps;
+}
+.followers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: lightgrey;
+  width: 30%;
+} 
+a:hover{
+  color:purple;
+  cursor: pointer;
+}
+
+/* FollowerCard styles */
+.follower-card {
+  border: 1px solid grey;
+  margin: 2% 2%;
+  width: 25%;
+}
